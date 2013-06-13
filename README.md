@@ -51,8 +51,15 @@ apps'](http://svenduplic.com/2012/12/22/how-i-setup-my-rails-app.html).
     rspec
     ```
 
-8. Run rails server. All should be working! Happy coding! :)
+8. Run rails server. All should be working!
 
     ```
     rails s
+    ```
+
+9. Remove the origin, add a new one, checkout into your new branches, and start coding! :)
+
+    ```
+    git remote rm origin
+    git checkout -b development
     ```
