@@ -10,22 +10,22 @@ apps'](http://svenduplic.com/2012/12/22/how-i-setup-my-rails-app.html).
 
 1. Clone the repo
 
-`git clone git@github.com:ofcan/barebone_rails.git`
+    `git clone git@github.com:ofcan/barebone_rails.git`
 
 2. Change the code in `.ruby-version` file to match the rvm gemset you wish to use
 3. Configure your Postgresql database
 
-`sudo -u postgres psql`
-`create user my_app with password 'secret';`
-`create database my_app_development owner my_app;`
-`alter user my_app createdb;`
-`\q`
+    `sudo -u postgres psql`
+    `create user my_app with password 'secret';`
+    `create database my_app_development owner my_app;`
+    `alter user my_app createdb;`
+    `\q`
 
 4. Copy database.yml.example file, rename it and configure it properly
 
-`cp config/database.yml.example config/database.yml`
-`vim config/database.yml`
+    `cp config/database.yml.example config/database.yml`
+    `vim config/database.yml`
 
 5. Run rails server. All should be working! Happy coding! :)
 
-`rails s`
+    `rails s`
