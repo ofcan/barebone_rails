@@ -35,8 +35,10 @@ apps'](http://svenduplic.com/2012/12/22/how-i-setup-my-rails-app.html).
 
 5. Copy database.yml.example file, rename it and configure it properly
 
-    `cp config/database.yml.example config/database.yml`
-    `vim config/database.yml`
+    ```
+    cp config/database.yml.example config/database.yml
+    vim config/database.yml
+    ```
 
 6. Migrate the database
 
